@@ -1,0 +1,40 @@
+* {
+    font-family: 'Popins', sans-serif;
+    background-color: #f5f0ff;
+  }
+   
+  .gap10 {
+    gap: 10px;
+  }
+  
+  .gap30 {
+    gap: 30px;
+  }
+  
+  .gap50 {
+    gap: 50px;
+  }
+  
+  /* Santi start here */
+
+
+
+
+  /* Masa start here */
+
+  
+  /* ########## */
+  /* RESPONSIVE */
+  /* ########## */
+  
+  /* 639px */
+  @media screen and (max-width: 639px) {
+  /* Santi start here */
+
+
+
+  
+  /* Masa start here */
+
+}
+  
