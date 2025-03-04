@@ -1,6 +1,12 @@
 * {
-    font-family: 'Popins', sans-serif;
-    background-color: #f5f0ff;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+  }
+  * a {
+    text-decoration: none;
+  }
+  * ul {
+    list-style-type: none;
   }
    
   .gap10 {
@@ -14,11 +20,19 @@
   .gap50 {
     gap: 50px;
   }
-  
+  .colorWhite {
+    color: white;
+  }
   /* Santi start here */
+  .loginButton {
+    border: 0;
+    background: inherit;  
+  }
 
-
-
+  .titleLogo {
+    font-size: 24px;
+    font-weight: 700;
+  }
 
   /* Masa start here */
 
