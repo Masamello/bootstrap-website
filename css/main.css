@@ -20,10 +20,33 @@
   .gap50 {
     gap: 50px;
   }
+
   .colorWhite {
     color: white;
   }
+
+  .buttonPrimary {
+    background-color: #23a6f0;
+    font-size: 14px;
+  }
+
+  .buttonTransparent {
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    font-size: 14px;
+
+  }
   /* Santi start here */
+  .firstPart {
+    background-image: url('../assets/header/firstImage.jpg');
+    height: 670px;
+  }
+/*   .filterFirstPart {
+    background: linear-gradient(to right, black, white);
+    opacity: 0.9;
+    height: 670px;
+  } */
   .loginButton {
     border: 0;
     background: inherit;  
@@ -34,6 +57,23 @@
     font-weight: 700;
   }
 
+  .title {
+    font-size: 58px;
+    font-weight: 700;
+  }
+
+  .description {
+    font-size: 20px;
+  }
+  
+  .section2 {
+    height: 435px;
+    background-color: #252B42;
+  }
+
+  .section2 .cardDescription {
+    font-size: 14px;
+  }
   /* Masa start here */
 
   
