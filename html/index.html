@@ -12,6 +12,9 @@
             crossorigin="anonymous"
         />
         <link rel="stylesheet" href="../css/main.css" />
+        <style>
+            @import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+        </style>
         <title>Bootstrap</title>
     </head>
     <body>
@@ -22,7 +25,9 @@
 
         <!-- section-4 starts from here -->
 
-        <section class="section-4">
+        <section
+            class="section-4 d-flex flex-column text-center justify-content-center"
+        >
             <div class="industryContainer">
                 <h2>Industry</h2>
                 <p>
@@ -33,30 +38,35 @@
             <div class="imageSection">
                 <nav>
                     <ul
-                        class="d-flex align-items-center flex-direction-row justify-content-between row-gap-21"
+                        class="d-flex align-items-center flex-direction-row justify-content-between"
                     >
                         <li class="imageConatiner">
-                            <img
-                                src="../assets/section-4/post-1.jpg"
-                                alt="image1"
-                            />
-                            <div class="insideImage">
-                                <p>Tax Management</p>
-                                <p>
-                                    Life Tips From Top Ten Adventure Travelers
-                                </p>
-                                <button
-                                    type="button"
-                                    class="btn btn-primary rounded-pill"
-                                >
-                                    View Project
-                                </button>
+                            <div>
+                                <img
+                                    src="../assets/section-4/post-1.jpg"
+                                    alt="image1"
+                                    class="Image"
+                                />
+                                <div class="insideImage">
+                                    <p>Tax Management</p>
+                                    <p>
+                                        Life Tips From Top Ten Adventure
+                                        Travelers
+                                    </p>
+                                    <button
+                                        type="button"
+                                        class="btn btn-primary rounded-pill"
+                                    >
+                                        View Project
+                                    </button>
+                                </div>
                             </div>
                         </li>
                         <li class="imageConatiner">
                             <img
                                 src="../assets/section-4/post-2.jpg"
                                 alt="image2"
+                                class="Image"
                             />
                             <div class="insideImage">
                                 <p>Tax Management</p>
@@ -75,6 +85,7 @@
                             <img
                                 src="../assets/section-4/post-3.jpg"
                                 alt="image3"
+                                class="Image"
                             />
                             <div class="insideImage">
                                 <p>Tax Management</p>
@@ -93,6 +104,7 @@
                             <img
                                 src="../assets/section-4/post-4.jpg"
                                 alt="image4"
+                                class="Image"
                             />
                             <div class="insideImage">
                                 <p>Tax Management</p>
@@ -114,15 +126,18 @@
 
         <!-- section-5 starts from here -->
 
-        <section class="section-5">
-            <div class="priceSection">
+        <section class="section-5 d-flex flex-column text-center">
+            <div class="priceSection d-flex flex-column align-items-center">
                 <h2>Pricing</h2>
                 <p>
                     Problems trying to resolve the conflict between the two
                     major realms of Classial physics: Newtonian mechanics
                 </p>
             </div>
-            <div class="priceContainer">
+            <div
+                class="priceContainer d-flex flex-row align-items-center justify-content-center"
+                style="gap: 30px"
+            >
                 <div class="priceCard">
                     <h2>FREE</h2>
                     <p>Organise across all apps by hand</p>
@@ -130,7 +145,39 @@
                         <h3>0$</h3>
                         <p>Per Month</p>
                     </div>
-                    <div class="button button-primary">Try for free</div>
+                    <div class="btn btn-primary">Try for free</div>
+                    <ul>
+                        <li>
+                            <img
+                                src="../assets/section-5/icon_check_green.png"
+                                alt="check_green"
+                            />Unlimited product updates
+                        </li>
+                        <li>
+                            <img
+                                src="../assets/section-5/icon_check_green.png"
+                                alt="check_green"
+                            />Unlimited product updates
+                        </li>
+                        <li>
+                            <img
+                                src="../assets/section-5/icon_check_green.png"
+                                alt="check_green"
+                            />Unlimited product updates
+                        </li>
+                        <li>
+                            <img
+                                src="../assets/section-5/icon_check_gray.png"
+                                alt="check_gray"
+                            />1GB Cloud storage
+                        </li>
+                        <li>
+                            <img
+                                src="../assets/section-5/icon_check_gray.png"
+                                alt="check_gray"
+                            />Email and community support
+                        </li>
+                    </ul>
                 </div>
                 <div class="priceCard">
                     <h2>SILVER</h2>
@@ -139,7 +186,39 @@
                         <h3>9.99$</h3>
                         <p>Per Month</p>
                     </div>
-                    <div class="button button-primary">Try for free</div>
+                    <div class="btn btn-primary">Try for free</div>
+                    <ul>
+                        <li>
+                            <img
+                                src="../assets/section-5/icon_check_green.png"
+                                alt="check_green"
+                            />Unlimited product updates
+                        </li>
+                        <li>
+                            <img
+                                src="../assets/section-5/icon_check_green.png"
+                                alt="check_green"
+                            />Unlimited product updates
+                        </li>
+                        <li>
+                            <img
+                                src="../assets/section-5/icon_check_green.png"
+                                alt="check_green"
+                            />Unlimited product updates
+                        </li>
+                        <li>
+                            <img
+                                src="../assets/section-5/icon_check_gray.png"
+                                alt="check_gray"
+                            />1GB Cloud storage
+                        </li>
+                        <li>
+                            <img
+                                src="../assets/section-5/icon_check_gray.png"
+                                alt="check_gray"
+                            />Email and community support
+                        </li>
+                    </ul>
                 </div>
                 <div class="priceCard">
                     <h2>GOLD</h2>
@@ -148,7 +227,39 @@
                         <h3>19.99$</h3>
                         <p>Per Month</p>
                     </div>
-                    <div class="button button-primary">Try for free</div>
+                    <div class="btn btn-primary">Try for free</div>
+                    <ul>
+                        <li>
+                            <img
+                                src="../assets/section-5/icon_check_green.png"
+                                alt="check_green"
+                            />Unlimited product updates
+                        </li>
+                        <li>
+                            <img
+                                src="../assets/section-5/icon_check_green.png"
+                                alt="check_green"
+                            />Unlimited product updates
+                        </li>
+                        <li>
+                            <img
+                                src="../assets/section-5/icon_check_green.png"
+                                alt="check_green"
+                            />Unlimited product updates
+                        </li>
+                        <li>
+                            <img
+                                src="../assets/section-5/icon_check_gray.png"
+                                alt="check_gray"
+                            />1GB Cloud storage
+                        </li>
+                        <li>
+                            <img
+                                src="../assets/section-5/icon_check_gray.png"
+                                alt="check_gray"
+                            />Email and community support
+                        </li>
+                    </ul>
                 </div>
             </div>
         </section>
@@ -156,18 +267,177 @@
         <!-- section-6 starts from here -->
 
         <section class="section-6">
+            <div class="contacusContainer">
+                <p>Contact Us</p>
+                <h2>Make an Appointment</h2>
+            </div>
             <div class="gridContainer">
                 <div class="row">
-                    <div class="col">
-                        <input type="text" placeholder="Full Name" id="" />
+                    <div>
+                        <input
+                            type="text"
+                            placeholder="Full Name"
+                            id="nameBox"
+                            class="col-md-6"
+                        />
+                        <label for="nameBox" class="labelnameBox"></label>
+                    </div>
+                    <div>
+                        <input
+                            type="text"
+                            id="emailBox"
+                            placeholder="Email"
+                            class="col-md-6"
+                        />
+                        <label for="emailBox" class="labelemailBox"></label>
                     </div>
                 </div>
+                <div class="row">
+                    <div>
+                        <label for="selector" class="labelSelector"></label>
+                        <select name="selector" id="selector" class="col-md-6">
+                            <option value="#">option-1</option>
+                            <option value="#">option-2</option>
+                            <option value="#">option-3</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label
+                            for="timeSeletor"
+                            class="labeltimeSelector"
+                        ></label>
+                        <select
+                            name="timeSelector"
+                            id="timeSelector"
+                            class="col-md-6"
+                        >
+                            <option value="1:00_available">
+                                1:00 available
+                            </option>
+                            <option value="2:00_available">
+                                2:00 available
+                            </option>
+                            <option value="3:00_available">
+                                3:00 available
+                            </option>
+                        </select>
+                    </div>
+                    <div class="row">
+                        <div>
+                            <textarea
+                                name="text"
+                                id="textArea"
+                                placeholder="Message"
+                                class="col-md-12"
+                            ></textarea>
+                            <label for="textArea" class="textArea"></label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="appointmentBtn">
+                <button type="button" class="btn btn-primary">
+                    Book Appointment
+                </button>
             </div>
         </section>
 
         <!-- Footer part starts from here -->
 
-        <section class="footer"></section>
+        <section class="footer">
+            <div
+                class="upperContainer d-flex justify-content-between align-items-center"
+                style="padding: 0px 195px"
+            >
+                <div>
+                    <h2>Consulting Agency For Your Business</h2>
+                    <p>The quick fox jumps over the lazy dog</p>
+                </div>
+                <div>
+                    <button type="button" class="btn btn-primary">
+                        Contact Us
+                    </button>
+                </div>
+            </div>
+            <div class="middleContainer d-flex">
+                <nav class="CompanyInfo h4">
+                    <ul>
+                        Company Info
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Carrier</a></li>
+                        <li><a href="#">We are hiring</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </nav>
+                <nav class="Legal h4">
+                    <ul>
+                        Legal
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Carrier</a></li>
+                        <li><a href="#">We are hiring</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </nav>
+                <nav class="Features h4">
+                    <ul>
+                        Features
+                        <li><a href="#">Business Marketing</a></li>
+                        <li><a href="#">User Analytic</a></li>
+                        <li><a href="#">Live Chat</a></li>
+                        <li><a href="#">Unlimited Support</a></li>
+                    </ul>
+                </nav>
+                <nav class="Resources h4">
+                    <ul>
+                        Resources
+                        <li><a href="#">IOS & Android</a></li>
+                        <li><a href="#">Watch a Demo</a></li>
+                        <li><a href="#">Customers</a></li>
+                        <li><a href="#">API</a></li>
+                    </ul>
+                </nav>
+                <nav class="getinTouch h4">
+                    <ul>
+                        Get In Touch
+                        <li>
+                            <img
+                                src="../assets/footer/bx_bx-phone.png"
+                                alt="icon_phone"
+                            />(480) 555-0103
+                        </li>
+                        <li>
+                            <img
+                                src="../assets/footer/bx_bx-map.png"
+                                alt="icon_map"
+                            />4517 Washington Ave.
+                        </li>
+                        <li>
+                            <img
+                                src="../assets/footer/carbon_send-alt.png"
+                                alt="icon_letter"
+                            />debra.holt@example.com
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div
+                class="lowerContainer d-flex justify-content-between"
+                style="padding: 0px 195px"
+            >
+                <div><p>Made With Love By Figmaland All Right Reserved</p></div>
+                <div>
+                    <img
+                        src="../assets/footer/facebook.png"
+                        alt="blue-color-facebook"
+                    />
+                    <img
+                        src="../assets/footer/instagram.png"
+                        alt="blue-color-instagram"
+                    />
+                    <img src="../assets/footer/twitter.png" alt="twitter" />
+                </div>
+            </div>
+        </section>
 
         <script
             src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
